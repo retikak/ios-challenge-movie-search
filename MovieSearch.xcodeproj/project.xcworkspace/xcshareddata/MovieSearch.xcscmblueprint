@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "39BFBBC8030FB2477DC8E095002AB96DF11D72BB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "39BFBBC8030FB2477DC8E095002AB96DF11D72BB" : 0,
+    "1057015D9210592783F5F1E3EB0C10AE67580D24" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A5446C65-771F-4860-99FF-5384566A4A86",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "39BFBBC8030FB2477DC8E095002AB96DF11D72BB" : "ios-challenge-movie-search\/",
+    "1057015D9210592783F5F1E3EB0C10AE67580D24" : "ios-challenge-movie-search\/MovieSearch\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MovieSearch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MovieSearch.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/retikak\/MovieSearch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1057015D9210592783F5F1E3EB0C10AE67580D24"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/retikak\/ios-challenge-movie-search.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39BFBBC8030FB2477DC8E095002AB96DF11D72BB"
+    }
+  ]
+}
