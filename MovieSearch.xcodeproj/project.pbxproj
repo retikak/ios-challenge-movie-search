@@ -11,6 +11,11 @@
 		1A4A23461CCAA554003A4350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23441CCAA554003A4350 /* Main.storyboard */; };
 		1A4A23481CCAA554003A4350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23471CCAA554003A4350 /* Assets.xcassets */; };
 		1A4A234B1CCAA554003A4350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23491CCAA554003A4350 /* LaunchScreen.storyboard */; };
+		7962BB961CD3D4670076C1B8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962BB951CD3D4670076C1B8 /* Movie.swift */; };
+		7962BB981CD3D4710076C1B8 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962BB971CD3D4710076C1B8 /* MovieController.swift */; };
+		7962BB9A1CD3D4800076C1B8 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962BB991CD3D4800076C1B8 /* NetworkController.swift */; };
+		7962BB9C1CD3D4A20076C1B8 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962BB9B1CD3D4A20076C1B8 /* SearchTableViewController.swift */; };
+		7962BB9E1CD512E50076C1B8 /* MovieCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962BB9D1CD512E50076C1B8 /* MovieCustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		1A4A23471CCAA554003A4350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A4A234A1CCAA554003A4350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A4A234C1CCAA554003A4350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7962BB951CD3D4670076C1B8 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../Movie.swift; sourceTree = "<group>"; };
+		7962BB971CD3D4710076C1B8 /* MovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieController.swift; path = ../MovieController.swift; sourceTree = "<group>"; };
+		7962BB991CD3D4800076C1B8 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = ../NetworkController.swift; sourceTree = "<group>"; };
+		7962BB9B1CD3D4A20076C1B8 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTableViewController.swift; path = ../SearchTableViewController.swift; sourceTree = "<group>"; };
+		7962BB9D1CD512E50076C1B8 /* MovieCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 		1A4A233F1CCAA554003A4350 /* MovieSearch */ = {
 			isa = PBXGroup;
 			children = (
+				7962BB971CD3D4710076C1B8 /* MovieController.swift */,
+				7962BB9D1CD512E50076C1B8 /* MovieCustomTableViewCell.swift */,
 				1A4A23401CCAA554003A4350 /* AppDelegate.swift */,
+				7962BB951CD3D4670076C1B8 /* Movie.swift */,
+				7962BB991CD3D4800076C1B8 /* NetworkController.swift */,
+				7962BB9B1CD3D4A20076C1B8 /* SearchTableViewController.swift */,
 				1A4A23441CCAA554003A4350 /* Main.storyboard */,
 				1A4A23471CCAA554003A4350 /* Assets.xcassets */,
 				1A4A23491CCAA554003A4350 /* LaunchScreen.storyboard */,
@@ -132,6 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7962BB9A1CD3D4800076C1B8 /* NetworkController.swift in Sources */,
+				7962BB9E1CD512E50076C1B8 /* MovieCustomTableViewCell.swift in Sources */,
+				7962BB981CD3D4710076C1B8 /* MovieController.swift in Sources */,
+				7962BB9C1CD3D4A20076C1B8 /* SearchTableViewController.swift in Sources */,
+				7962BB961CD3D4670076C1B8 /* Movie.swift in Sources */,
 				1A4A23411CCAA554003A4350 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +302,7 @@
 				1A4A23511CCAA554003A4350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
